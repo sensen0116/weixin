@@ -1,0 +1,297 @@
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 57.22222px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 53.33333px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 52.08333px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 44.44444px;
+  }
+}
+* {
+  position: relative;
+}
+body,ul,li,h2{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 微软雅黑;
+
+}
+body{
+  background-color: #ebebeb;
+}
+.header {
+  width: 7.2rem;
+  height: 0.96rem;
+  background: #393a3f;
+  color: #fff;
+  position: fixed;
+  top:0;
+  left: 0;
+  line-height: 0.96rem;
+  z-index: 9;
+}
+
+.header .font {
+  font-size: 0.32rem;
+  font-weight: normal;
+  color: #fff;
+  height: 0.96rem;
+  width: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 0.28rem;
+  bottom: 0;
+  margin: auto;
+}
+
+.header .plus {
+  width: 0.38rem;
+  height: 0.38rem;
+  position: absolute;
+  right: 0.49rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../images/jiahao.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.header .search {
+  width: 0.38rem;
+  height: 0.38rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 1.73rem;
+  background: url(../images/2.jpg) no-repeat;
+  background-size: 100%;
+}
+.content{
+  height: auto;
+  width: 100%;
+  background-color: #ebebeb;
+  overflow: hidden;
+  margin-top: 0.96rem;
+}
+.info{
+  width: 100%;
+  height: 1.6rem;
+  margin-top: 0.4rem;
+  background-color: #fff;
+}
+.tou{
+  position: absolute;
+  left: 0.27rem;
+  top:0;
+  bottom:0;
+  margin: auto;
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.box{
+  position: absolute;
+  left: 1.88rem;
+  top:0;
+  bottom:0;
+  right:0;
+  margin: auto;
+  background-color: #fff;
+  height: 100%;
+}
+.box h2{
+  position: absolute;
+  left: 0;
+  top:0.43rem;
+  bottom:0.83rem;
+  font-size: 0.32rem;
+  color:#353535;
+}
+.haoma{
+  position: absolute;
+  left: 0;
+  
+  bottom:0.43rem;
+  font-size: 0.23rem;
+  color:#999999;
+}
+.box img{
+  width:0.36rem ;
+  height: 0.36rem;
+  position: absolute;
+  right:0.5rem ;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+.py{
+  width: 100%;
+  margin-bottom: 1px;
+  height: 0.96rem;
+  background-color: #fff;
+  
+}
+.py1{
+  margin-top: 0.4rem;
+}
+.py .zuo{
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  margin-left: 0.4rem;
+  width:0.45rem ;
+  height: 0.49rem;
+}
+.py h2{
+  position: absolute;
+  left: 1.24rem;
+  top:0;
+  bottom:0;
+  margin: auto;
+  font-size:0.28rem ;
+  color:#353535;
+  height: 0.49rem;
+  line-height: 0.49rem;
+
+}
+.py .you{
+  position: absolute;
+  right: 0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  width: 0.72rem;
+  height: 0.73rem;
+  margin-right: 0.23rem;
+}
+
+.footer{
+  width: 100%;
+  height: 1.07rem;
+  background-color: #fff;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  z-index: 9;
+}
+
+.footer .one{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 0.64rem;
+  
+
+}
+.footer .one img{
+  width: 0.52rem;
+  height: 0.45rem;
+
+}
+.one .zi{
+ 
+  width: 0.52rem;
+}
+.footer .two{
+  width: 0.78rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 2.33rem;
+  
+
+}
+.footer .two img{
+  width: 0.5rem;
+  height: 0.48rem;
+
+}
+.two .zi{
+  width: 0.7rem;
+
+
+
+}
+.footer .three{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 4.25rem;
+  
+
+}
+.footer .three img{
+  width: 0.52rem;
+  height: 0.48rem;
+
+}
+.three .zi{
+  width: 0.52rem;
+   
+}
+.footer .four{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  right: 0.64rem;
+  
+
+}
+.footer .four img{
+  width: 0.52rem;
+  height: 0.48rem;
+
+}
+.four .zi{
+  width: 0.52rem;
+   color: #46c01b;
+}
+.footer img{
+  position: absolute;
+  left: 0;
+  right:0;
+  top:0.15rem;
+  margin: auto;
+}
+.footer .zi{
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom:0.15rem;
+  margin: auto;
+  font-size: 0.22rem;
+  text-align: center;
+}

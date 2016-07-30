@@ -1,0 +1,56 @@
+*{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+
+}
+@mixin cube ($size){
+	width: $size;
+	height: $size;
+	background:#ccc;
+
+}
+@mixin matrix ($w,$h){
+	width: $w;
+	height: $h;
+	background: #131344;
+
+
+}
+@mixin topbottom{
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto;
+}
+@mixin leftright{
+	position: absolute;
+	left:0;
+	right: 0;
+	margin: auto;
+}
+@mixin center{
+	position: absolute;
+	left: 0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin: auto;
+}
+@mixin gai{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+@mixin circle($size){
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+	/*background: orange;*/
+}
+

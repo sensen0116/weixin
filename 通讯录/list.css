@@ -1,0 +1,287 @@
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 57.22222px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 53.33333px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 52.08333px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 44.44444px;
+  }
+}
+* {
+  position: relative;
+}
+body,ul,li,h2{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 楷体;
+
+}
+
+.header {
+  width: 7.2rem;
+  height: 0.96rem;
+  background: #393a3f;
+  color: #fff;
+  position: fixed;
+  top:0;
+  left: 0;
+  line-height: 0.96rem;
+  z-index: 9;
+}
+
+.header .font {
+  font-size: 0.32rem;
+  font-weight: normal;
+  color: #fff;
+  height: 0.96rem;
+  width: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 0.28rem;
+  bottom: 0;
+  margin: auto;
+}
+
+.header .plus {
+  width: 0.38rem;
+  height: 0.38rem;
+  position: absolute;
+  right: 0.49rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../images/jiahao.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.header .search {
+  width: 0.38rem;
+  height: 0.38rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 1.73rem;
+  background: url(../images/2.jpg) no-repeat;
+  background-size: 100%;
+}
+.content{
+  height: auto;
+  width: 100%;
+ 
+  overflow: hidden;
+  margin-top: 0.96rem;
+}
+.sige li{
+  width: 6.43rem;
+  height: 1.03rem;
+  border-bottom: 1px solid #d9d9d9;
+  background-color:#fff;
+  left: 0.28rem;
+}
+.sige li img{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  margin: auto;
+  width: 0.72rem;
+  height: 0.72rem
+}
+.sige li h2{
+  width: 5rem;
+  height: 1.03rem;
+  position: absolute;
+  left: 0.96rem;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  line-height: 1.03rem;
+  font-size: 0.36rem;
+  color:#3c3c3c;
+}
+.hengtiao{
+  width: 100%;
+  height: 0.45rem;
+  background-color: #ebebeb;
+}
+.hengtiao h2{
+  font-size: 0.2rem;
+  color:#888888;
+  width: 0.22rem;
+  height: 100%;
+  line-height: 0.45rem;
+  margin-left: 0.28rem;
+}
+.lianxiren{
+  width: 100%;
+  height: auto;
+
+}
+.lianxiren li{
+  width: 6.43rem;
+  height: 1.03rem;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #fff;
+  left: 0.28rem;
+}
+.lianxiren li img{
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  width: 0.72rem;
+  height: 0.72rem;
+}
+.lianxiren h2{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0.98rem;
+  right:0;
+  margin: auto;
+  color:#444444;
+  font-size: 0.29rem;
+  height: 1.03rem;
+  line-height: 1.03rem;
+
+}
+.footer{
+  width: 100%;
+  height: 1.07rem;
+  background-color: #fff;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  z-index: 9;
+}
+
+.footer .one{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 0.64rem;
+  
+
+}
+.footer .one img{
+  width: 0.52rem;
+  height: 0.45rem;
+
+}
+.one .zi{
+ 
+  width: 0.52rem;
+}
+.footer .two{
+  width: 0.78rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 2.33rem;
+  
+
+}
+.footer .two img{
+  width: 0.5rem;
+  height: 0.48rem;
+
+}
+.two .zi{
+  width: 0.7rem;
+  color: #46c01b;
+
+
+}
+.footer .three{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  left: 4.25rem;
+  
+
+}
+.footer .three img{
+  width: 0.52rem;
+  height: 0.48rem;
+
+}
+.three .zi{
+  width: 0.52rem;
+}
+.footer .four{
+  width: 0.52rem;
+  height: 1.07rem;
+  /*background-color: orange;*/
+  position: absolute;
+  right: 0.64rem;
+  
+
+}
+.footer .four img{
+  width: 0.52rem;
+  height: 0.48rem;
+
+}
+.four .zi{
+  width: 0.52rem;
+}
+.footer img{
+  position: absolute;
+  left: 0;
+  right:0;
+  top:0.15rem;
+  margin: auto;
+}
+.footer .zi{
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom:0.15rem;
+  margin: auto;
+  font-size: 0.22rem;
+  text-align: center;
+}
+.youce{
+  position: fixed;
+  top:0.96rem;
+  right:0;
+  bottom:1.07rem;
+
+}
+.youce li{
+  font-size: 0.2rem;
+  color:#565656;
+  margin: 0.1rem;
+}
